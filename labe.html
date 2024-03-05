@@ -3,81 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selamawit</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1>Selamawit's Personal Website</h1>
-        <nav>
-            <a href="labe.html">Home</a>
-            <a href="labe.html">About</a>
-            <a href="labe.html">Interests</a>
-            <a href="labe.html">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Welcome to my personal website. Here, you'll find information about me, my interests, and how to get in touch.</p>
-        </section>
-        <section>
-            <h2>My Interests</h2>
-            <ul>
-                <li>Programming</li>
-                <li>photography</li>
-                <li>Traveling</li>
-                <li>Exploring new cultures</li>
-            </ul>
-        </section>
-        <section>
-            <h2>My Picture</h2>
-            <img src="1.jpg" alt="Selamawit's Picture">
-        </section>
-        <section>
-            <h2>Contact Me</h2>
-            <p>Feel free to reach out to me through the following channels:</p>
-            <p>Email: selinatariku@gmail.com</p>
-            <p>Phone: +251949348192</p>
-        </section>
-
-        <section>
-            <h2>Courses</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Course Number</th>
-                        <th>Course Title</th>
-                        <th>Semester Taken</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="current-course">
-                        <td>WD 201</td>
-                        <td>Web Development</td>
-                        <td> Semester 2</td>
-                    </tr>
-                    <tr>
-                        <td>MOBA 101</td>
-                        <td>Mobile App Development</td>
-                        <td>Semester 1</td>
-                    </tr>
-                    <tr class="current-course">
-                        <td>DBMS 202</td>
-                        <td>Database Management</td>
-                        <td>Semester 2</td>
-                    </tr>
-                    <tr>
-                        <td>STQA 102</td>
-                        <td>Software Testing and Quality Assurance </td>
-                        <td>Semester 1</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </main>
+    <div class="main-container">
+        <div class="left-container">
+            <div class="profile-menu-container">
+                <img src="./1.jpg" alt="Profile Image" class="profile-image">
+                <div class="menu">
+                    <a href="#home">Home</a>
+                    <a href="#about">About Me</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="content-image">
+                <img src="./1.jpg" alt="Content Image">
+            </div>
+            <div class="content-text">
+                <div class="page-section" id="home">
+                    <h1>Home</h1>
+                    <h2>Welcome to My Portfolio</h2>
+                    <p>Hello, I'm Selamawit Tariku, a passionate software developer with expertise in backend engineering, team collaboration, product decisions, time management, and productivity hacks. I specialize in creating efficient, scalable software applications and sharing personal experiences and learnings about these topics. Explore my featured projects and technical skills to learn more about my work.</p>
+                    <h2>Technical Skills</h2>
+                    <ul>
+                        <li>Programming Languages: Python, Java, C#</li>
+                        <li>Web Technologies: HTML, CSS, JavaScript, React</li>
+                        <li>Database Management: SQL, MongoDB</li>
+                        <li>Tools & Platforms: Git, Docker, AWS, Azure</li>
+                    </ul>
+                </div>
+                <div class="page-section" id="about">
+                    <h1>About Me</h1>
+                    <ul>
+                        <li>Name: Selamawit Tariku Yemane</li>
+                        <li> Sex: Female</li>
+                        <li>Date of Birth: March 28, 1998.E.C</li>
+                        <li>Marital Status: Single</li>
+                        <li> Nationality: Ethiopian</li>
+                        <li>Contact Address: Phone No: +251949348192</li>
+                    </ul>
+                    <h2>Interests</h2>
+                    <p>My interests extend to cloud computing, microservices architecture, and data privacy in software development. I am passionate about staying updated with the latest industry trends and contributing to the tech community through knowledge sharing and mentorship.</p>
+                </div>
+                <div class="page-section" id="projects">
+                    <h1>Projects</h1>
+                    <p>My projects focus on backend development, API integrations, and creating efficient solutions for complex business requirements. I strive to leverage my technical expertise to deliver high-quality software solutions that address real-world challenges. Explore my projects to gain insights into my approach to software development.</p>
+                    <h2>Featured Project</h2>
+                    <p>Project Name: [Project Name]</p>
+                    <p>Description: [Project Description]</p>
+                    <p>Technologies Used: [Technologies]</p>
+                </div>
+                <div class="page-section" id="experience">
+                    <h1>Experience and Educational Qualification</h1>
+                    <p>Throughout my career, I have gained extensive experience in backend engineering, software architecture, and leading development teams. I have actively contributed to the success of projects by implementing robust backend solutions and fostering a collaborative team environment. My experience reflects my commitment to excellence in software development.</p>
+                    <h2>Educational Qualification</h2>
+                    <ul>
+                        <li>Bachelor of Science(BSC) in IT department from Ethiopian Catholics University of St Thomas Aquinas(ECUSTA) in 2021 with a CGPA of 3.76.</li>
+                        <li>Bachelor of Arts (BA) in Accounting and Public Finance department from Oromia State University in 2021 with a CGP of 2.83.</li>
+                        <li>Certificate of completion in OPSWAT File Security Associate issued October 28, 2022</li>
+                        <li>Certificate of completion in OPSWAT Introduction to CIP Program issued October 28, 2022</li>
+                        <li>Certificate of completion in OPSWAT Introduction to CIP Program issued October 28, 2022</li>
+                        <li>Certificate of completion in OPSWAT Web Traffic Protection Associate issued October 31, 2022.</li>
+                        <li>Certificate of completion in OPSWAT Data Transfer Associate issued November 2, 2022</li>
+                        <li>Certified in Java programming from Grate Learning Issued November 2022</li>
+                        <li>Certificate of completion in Introduction to Linux June 2019</li>
+                        <li>Certificate of Level 1-3 COC exam</li>
+                    </ul>
+                </div>
+                <div class="page-section" id="contact">
+                    <h1>Contact Me</h1>
+                    <p>Feel free to reach out to me to discuss potential collaborations, software development opportunities, or to explore how we can work together to create impactful software solutions. I am open to engaging in meaningful conversations and exploring new opportunities within the software development community.</p>
+                <h2>Contact Information</h2>
+                <ul>
+                    <li>Email: selamtariku1921@gmail.com</li>
+                        <li>Phone: +251949348192</li>
+                </ul>
+                   <h2>Social Media Links</h2>
+                   <ul>
+                    <li>Github: https://github.com/SelinaTariku</li>
+                    <li>Linkedin: https://www.linkedin.com/in/selamawit-t-bb4191243/</li>
+                    <li>Website: https://www.linkedin.com/in/selamawit-t-bb4191243/</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer>
-        <p>&copy; 2024 Selamawit's Personal Website. All rights reserved.</p>
+        <p>&copy; 2024 Selamawit.Tariku</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
